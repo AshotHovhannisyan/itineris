@@ -1,0 +1,72 @@
+.all-grids{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.all-grids .grid{
+    flex: 30%;
+    margin: 10px;
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+.all-grids .grid>div:nth-child(2){
+    margin-top: 5px;
+    padding: 0 10px;
+}
+
+.all-grids .grid h2{
+    margin: 0;
+}
+
+.all-grids .grid img{
+    width: 100%;
+}
+
+.all-grids .grid p>span:first-child{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/*----------*/
+
+.itineris_top{
+    gap: 0;
+}
+.itineris_top figure{
+    margin: 0;
+}
+
+.itineris_top>div:first-child > div{
+    margin-top: 12%;
+}
+
+.main-filter .filter-top{
+    background: #DCDCDE;
+    padding: 10px 20px;
+}
+
+.main-filter .filter-content{
+    background: #FFFAFF;
+    margin: 20px 0;
+}
+
+.main-filter .filter-content ul{
+    list-style-type: none;
+    margin: 0;
+}
+.main-filter .campus-filter{
+    margin-bottom: 20px;
+}
+
+.main-filter input{
+    padding: 10px 20px;
+    background: #00a32a;
+    border-radius: 5px;
+    border: 0;
+
+}
+.main-filter .type-filter{
+    margin-bottom: 10px;
+}
